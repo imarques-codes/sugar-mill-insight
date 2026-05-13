@@ -26,7 +26,7 @@ Para garantir o máximo de transparência e profissionalismo, o projeto foi estr
 
 A arquitetura está dividida em três camadas principais:
 
-1.  **Origem dos Dados e Cenário:** Camada de ingestão que gerencia dados históricos (CSV) e está preparada para integração com dados ao vivo (IoT/API), simulando o ambiente de uma usina real (COFCO).
+1.  **Origem dos Dados e Cenário:** Camada de ingestão que gerencia dados históricos (CSV) e está preparada para integração com dados ao vivo (IoT/API), simulando o ambiente de uma usina real.
 2.  **Processamento e Modelagem (ML Engine):** Onde os dados são tratados e o algoritmo **Random Forest Regressor** é treinado, validado (métricas MAE e R²) e serializado (.pkl).
 3.  **Deploy e Aplicação:** Camada final que utiliza **Streamlit** para criar uma interface interativa, permitindo previsões de RTC em tempo real e simulações de cenários ("What-If") para suporte à decisão operacional.
 
