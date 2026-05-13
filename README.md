@@ -63,7 +63,8 @@ Impacto: Criação de um simulador de cenários "What-if", permitindo ajustes pr
 
 ## Autor
 
-**Igor Marques** - *Estudante de Engenharia de Software, especialização em DATA & AI
+**Igor Marques** - *Estudante de Engenharia de Software, especialização em DATA & AI.
+
 igorhmsantos@gmail.com*.
 
 
