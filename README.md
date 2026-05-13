@@ -27,8 +27,7 @@ projeto-usina-dados/
 ├── app.py              # Dashboard interativo (Streamlit)
 ├── requirements.txt    # Gerenciamento de dependências
 └── README.md           # Documentação do projeto
-
-
+```
 Detalhamento das Fases
 Fase 1: Ingestão e Simulação de Dados
 Script: src/1_gerar_dados.py
@@ -52,3 +51,5 @@ Script: app.py
 Interface: Dashboard interativo em Streamlit.
 
 Impacto: Criação de um simulador de cenários "What-if", permitindo ajustes preventivos nos parâmetros do turno antes que as perdas ocorram.
+
+
