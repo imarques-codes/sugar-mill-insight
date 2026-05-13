@@ -27,3 +27,28 @@ projeto-usina-dados/
 ├── app.py              # Dashboard interativo (Streamlit)
 ├── requirements.txt    # Gerenciamento de dependências
 └── README.md           # Documentação do projeto
+
+
+Detalhamento das Fases
+Fase 1: Ingestão e Simulação de Dados
+Script: src/1_gerar_dados.py
+
+Comentário de Negócio: O script simula a sazonalidade real da safra brasileira, incluindo a interrupção da moagem durante a entressafra e a correlação direta entre impurezas e a queda no RTC.
+
+Destaque: Implementação de lógica estocástica para representar a variabilidade do campo.
+
+Fase 2: Modelagem Preditiva
+Script: src/2_treinar_modelo.py
+
+Algoritmo: Random Forest Regressor.
+
+Justificativa Técnica: Escolha baseada na robustez do modelo para processar relações não-lineares complexas, comum em processos químicos industriais.
+
+Métricas: Validação via MAE (Erro Médio Absoluto) e R², fornecendo uma margem de confiança clara para a operação.
+
+Fase 3: Deploy e Ferramenta de Decisão
+Script: app.py
+
+Interface: Dashboard interativo em Streamlit.
+
+Impacto: Criação de um simulador de cenários "What-if", permitindo ajustes preventivos nos parâmetros do turno antes que as perdas ocorram.
