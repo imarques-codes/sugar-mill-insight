@@ -52,4 +52,23 @@ Interface: Dashboard interativo em Streamlit.
 
 Impacto: Criação de um simulador de cenários "What-if", permitindo ajustes preventivos nos parâmetros do turno antes que as perdas ocorram.
 
+**Execução do Pipeline:**
+   | Ordem | Comando | Descrição |
+   | :--- | :--- | :--- |
+   | 1º | `python src/1_gerar_dados.py` | Gera o histórico de safra simulado |
+   | 2º | `python src/2_treinar_modelo.py` | Treina a IA e exporta os arquivos `.pkl` |
+   | 3º | `streamlit run app.py` | Inicializa a interface gráfica |
+
+---
+
+## Autor
+
+**Igor Marques** - *Estudante de Engenharia de Software, especialização em DATA & AI*.
+
+
+---
+
+### 📝 Licença
+Este projeto é destinado a fins de portfólio. Desenvolvido para demonstrar a aplicação de inteligência artificial na melhoria de processos reais do agronegócio brasileiro.
+
 
