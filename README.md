@@ -1,4 +1,4 @@
-# 🚜 SugarMill-Insights: Inteligência Artificial na Indústria Sucroalcooleira
+#SugarMill-Insights: Inteligência Artificial na Indústria Sucroalcooleira
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -12,11 +12,11 @@ Este sistema resolve o desafio da variabilidade no rendimento industrial, permit
 
 ---
 
-## 🏗️ Arquitetura e Fluxo de Trabalho
+### Arquitetura e Fluxo de Trabalho
 
 ![Fluxo do Projeto](img/workflow_comentarios.png)
 
-### 📂 Estrutura do Repositório
+### Estrutura do Repositório
 ```text
 projeto-usina-dados/
 ├── data/               # Dados brutos (.csv) e modelos treinados (.pkl)
